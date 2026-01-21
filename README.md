@@ -29,16 +29,6 @@ ALCHEMY_STARKNET_NODE_URL=<your_alchemy_rpc_url>
 INFURA_STARKNET_NODE_URL=<your_infura_rpc_url>
 ```
 
-## 📂 Project Structure
-starknet_contract_deployer/
-├─ script/
-│  ├─ index.ts            # Entry point for deployment
-│  ├─ declare.ts          # Declare all contracts
-│  ├─ contracts/          # Contract-specific deploy scripts
-│  ├─ utils/              # Helpers: artifacts, provider, network
-├─ starknet_contract/
-│  └─ target/dev/         # Compiled contract artifacts (Sierra + CASM)
-
 
 ## ⚙️ Usage
 
