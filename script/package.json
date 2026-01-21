@@ -1,0 +1,30 @@
+{
+  "name": "script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx index.ts",
+    "deploy:sepolia": "NETWORK=starknet-sepolia tsx index.ts",
+    "deploy:mainnet": "NETWORK=starknet-mainnet tsx index.ts",
+    "declare": "tsx declare.ts",
+    "declare:sepolia": "NETWORK=starknet-sepolia tsx declare.ts",
+    "declare:mainnet": "NETWORK=starknet-mainnet tsx declare.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "eslint": "^9.39.2",
+    "prettier": "^3.8.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "starknet": "^9.2.1"
+  }
+}
